@@ -11,6 +11,8 @@ functional
 -
 Set.hpp
 ../core/Set.hpp
+iostream
+-
 
 ../core/HashSet.hpp
 functional
