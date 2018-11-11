@@ -1,12 +1,8 @@
-Script started on Wed 07 Nov 2018 08:55:07 PM PST
-]0;ics46@ics46-2018spring: ~/projects/proj3ics46@ics46-2018spring : ~/projects/proj3 $ ./run
-AVL
-wordset.txt
-biginput.txt
-DISPLAY
+Script started on Sat 10 Nov 2018 11:14:01 PM PST
+]0;ics46@ics46-2018spring: ~/projects/proj3ics46@ics46-2018spring : ~/projects/proj3 $ ./bashfile.sh [K
 
-Loading word set from wordset.txt ...
-Checking spelling in biginput.txt ...
+Loading word set from /home/ics46/projects/proj3/wordset.txt ...
+Checking spelling in /home/ics46/projects/proj3/biginput.txt ...
 
 a's
      word not found: A'S
@@ -39,6 +35,7 @@ aam
       RAM
       ARM
       YAM
+      A AM
 
 aarogramme
      word not found: AAROGRAMME
@@ -160,19 +157,24 @@ abanded
      word not found: ABANDED
   perhaps you meant:
       BANDED
+      A BANDED
 
 abanding
      word not found: ABANDING
   perhaps you meant:
       BANDING
+      A BANDING
 
 abandonable
      word not found: ABANDONABLE
+  perhaps you meant:
+      ABANDON ABLE
 
 abands
      word not found: ABANDS
   perhaps you meant:
       BANDS
+      A BANDS
 
 abandum
      word not found: ABANDUM
@@ -220,6 +222,7 @@ abasic
      word not found: ABASIC
   perhaps you meant:
       BASIC
+      A BASIC
 
 abasio
      word not found: ABASIO
@@ -231,11 +234,13 @@ abastard
      word not found: ABASTARD
   perhaps you meant:
       BASTARD
+      A BASTARD
 
 abastardize
      word not found: ABASTARDIZE
   perhaps you meant:
       BASTARDIZE
+      A BASTARDIZE
 
 abastral
      word not found: ABASTRAL
@@ -256,6 +261,7 @@ abaton
      word not found: ABATON
   perhaps you meant:
       BATON
+      A BATON
 
 abattage
      word not found: ABATTAGE
@@ -288,6 +294,7 @@ abay
       BAY
       ABLY
       AWAY
+      A BAY
 
 abayah
      word not found: ABAYAH
@@ -572,12 +579,14 @@ abend
       BEND
       ABED
       AMEND
+      A BEND
 
 abends
      word not found: ABENDS
   perhaps you meant:
       BENDS
       AMENDS
+      A BENDS
 
 abenteric
      word not found: ABENTERIC
@@ -658,11 +667,13 @@ abhorrings
      word not found: ABHORRINGS
   perhaps you meant:
       ABHORRING
+      ABHOR RINGS
 
 abib
      word not found: ABIB
   perhaps you meant:
       BIB
+      A BIB
 
 abichite
      word not found: ABICHITE
@@ -680,6 +691,7 @@ abid
       AMID
       ARID
       AVID
+      A BID
 
 abidal
      word not found: ABIDAL
@@ -796,11 +808,13 @@ abiologically
      word not found: ABIOLOGICALLY
   perhaps you meant:
       BIOLOGICALLY
+      A BIOLOGICALLY
 
 abiology
      word not found: ABIOLOGY
   perhaps you meant:
       BIOLOGY
+      A BIOLOGY
 
 abiotical
      word not found: ABIOTICAL
@@ -848,6 +862,7 @@ abit
       ALIT
       OBIT
       ABUT
+      A BIT
 
 abiuret
      word not found: ABIURET
@@ -950,6 +965,7 @@ ablare
   perhaps you meant:
       BLARE
       ABLAZE
+      A BLARE
 
 ablastemic
      word not found: ABLASTEMIC
@@ -973,6 +989,7 @@ ablend
      word not found: ABLEND
   perhaps you meant:
       BLEND
+      A BLEND
 
 ableness
      word not found: ABLENESS
@@ -1017,6 +1034,7 @@ ablock
      word not found: ABLOCK
   perhaps you meant:
       BLOCK
+      A BLOCK
 
 abls
      word not found: ABLS
@@ -1094,6 +1112,8 @@ abnormalcy's
 
 abnormalisms
      word not found: ABNORMALISMS
+  perhaps you meant:
+      ABNORMAL ISMS
 
 abnormalist
      word not found: ABNORMALIST
@@ -1109,6 +1129,8 @@ abnumerable
 
 aboardage
      word not found: ABOARDAGE
+  perhaps you meant:
+      ABOARD AGE
 
 aboardage's
      word not found: ABOARDAGE'S
@@ -1130,6 +1152,7 @@ abody
   perhaps you meant:
       BODY
       ABODE
+      A BODY
 
 abogado
      word not found: ABOGADO
@@ -1182,6 +1205,8 @@ aborigin
 
 aboriginalisms
      word not found: ABORIGINALISMS
+  perhaps you meant:
+      ABORIGINAL ISMS
 
 aboriginary
      word not found: ABORIGINARY
@@ -1216,6 +1241,7 @@ abortin
   perhaps you meant:
       ABORTING
       ABORTION
+      ABORT IN
 
 abortogenic
      word not found: ABORTOGENIC
@@ -1247,29 +1273,41 @@ abounder
   perhaps you meant:
       BOUNDER
       ABOUNDED
+      A BOUNDER
+      ABOUND ER
 
 abovedeck
      word not found: ABOVEDECK
+  perhaps you meant:
+      ABOVE DECK
 
 aboveproof
      word not found: ABOVEPROOF
+  perhaps you meant:
+      ABOVE PROOF
 
 abovesaid
      word not found: ABOVESAID
+  perhaps you meant:
+      ABOVE SAID
 
 abovestairs
      word not found: ABOVESTAIRS
+  perhaps you meant:
+      ABOVE STAIRS
 
 abow
      word not found: ABOW
   perhaps you meant:
       BOW
       AVOW
+      A BOW
 
 abox
      word not found: ABOX
   perhaps you meant:
       BOX
+      A BOX
 
 abraham
      word not found: ABRAHAM
@@ -1328,6 +1366,7 @@ abrayed
       BRAYED
       ABRADED
       ARRAYED
+      A BRAYED
 
 abraying
      word not found: ABRAYING
@@ -1335,12 +1374,14 @@ abraying
       BRAYING
       ABRADING
       ARRAYING
+      A BRAYING
 
 abrays
      word not found: ABRAYS
   perhaps you meant:
       BRAYS
       ARRAYS
+      A BRAYS
 
 abrazite
      word not found: ABRAZITE
@@ -1353,6 +1394,7 @@ abreed
   perhaps you meant:
       BREED
       AGREED
+      A BREED
 
 abreid
      word not found: ABREID
@@ -1395,6 +1437,7 @@ abrine
      word not found: ABRINE
   perhaps you meant:
       BRINE
+      A BRINE
 
 abrocoma
      word not found: ABROCOMA
@@ -1410,11 +1453,13 @@ abrood
   perhaps you meant:
       BROOD
       ABROAD
+      A BROOD
 
 abrook
      word not found: ABROOK
   perhaps you meant:
       BROOK
+      A BROOK
 
 abrooke
      word not found: ABROOKE
@@ -1423,6 +1468,7 @@ abrooked
      word not found: ABROOKED
   perhaps you meant:
       BROOKED
+      A BROOKED
 
 abrookes
      word not found: ABROOKES
@@ -1431,6 +1477,7 @@ abrooking
      word not found: ABROOKING
   perhaps you meant:
       BROOKING
+      A BROOKING
 
 abrotanum
      word not found: ABROTANUM
@@ -1469,9 +1516,13 @@ abscam
 
 abscession
      word not found: ABSCESSION
+  perhaps you meant:
+      ABSCESS ION
 
 abscessroot
      word not found: ABSCESSROOT
+  perhaps you meant:
+      ABSCESS ROOT
 
 abscision
      word not found: ABSCISION
@@ -1507,6 +1558,9 @@ absentation's
 
 absenteeship
      word not found: ABSENTEESHIP
+  perhaps you meant:
+      ABSENTEE SHIP
+      ABSENTEES HIP
 
 absentia
      word not found: ABSENTIA
@@ -1554,6 +1608,8 @@ absinthiin
 
 absinthin
      word not found: ABSINTHIN
+  perhaps you meant:
+      ABSINTH IN
 
 absinthine
      word not found: ABSINTHINE
@@ -1563,6 +1619,8 @@ absinthismic
 
 absinthisms
      word not found: ABSINTHISMS
+  perhaps you meant:
+      ABSINTH ISMS
 
 absinthium
      word not found: ABSINTHIUM
@@ -1572,6 +1630,8 @@ absinthol
 
 absinthole
      word not found: ABSINTHOLE
+  perhaps you meant:
+      ABSINTH OLE
 
 absis
      word not found: ABSIS
@@ -1608,6 +1668,7 @@ absolutista
   perhaps you meant:
       ABSOLUTIST
       ABSOLUTISTS
+      ABSOLUTIST A
 
 absolutistically
      word not found: ABSOLUTISTICALLY
@@ -1649,6 +1710,8 @@ abstainment
 
 abstentionisms
      word not found: ABSTENTIONISMS
+  perhaps you meant:
+      ABSTENTION ISMS
 
 absterse
      word not found: ABSTERSE
@@ -1720,6 +1783,8 @@ absumption
 
 absurdum
      word not found: ABSURDUM
+  perhaps you meant:
+      ABSURD UM
 
 absvolt
      word not found: ABSVOLT
@@ -1822,9 +1887,13 @@ abuseful
 
 abusefully
      word not found: ABUSEFULLY
+  perhaps you meant:
+      ABUSE FULLY
 
 abusefulness
      word not found: ABUSEFULNESS
+  perhaps you meant:
+      ABUSE FULNESS
 
 abush
      word not found: ABUSH
@@ -1832,6 +1901,7 @@ abush
       AMBUSH
       BUSH
       ABUSE
+      A BUSH
 
 abusious
      word not found: ABUSIOUS
@@ -1855,6 +1925,7 @@ abyssa
      word not found: ABYSSA
   perhaps you meant:
       ABYSS
+      ABYSS A
 
 abyssinia
      word not found: ABYSSINIA
@@ -1875,6 +1946,7 @@ abyssus
      word not found: ABYSSUS
   perhaps you meant:
       ABYSSES
+      ABYSS US
 
 acacatechin
      word not found: ACACATECHIN
@@ -1901,6 +1973,7 @@ acad
   perhaps you meant:
       CAD
       ACID
+      A CAD
 
 acad's
      word not found: ACAD'S
@@ -1920,6 +1993,9 @@ academicalisms
 
 academicianship
      word not found: ACADEMICIANSHIP
+  perhaps you meant:
+      ACADEMICIAN SHIP
+      ACADEMICIANS HIP
 
 academie
      word not found: ACADEMIE
@@ -1994,6 +2070,7 @@ acanonical
      word not found: ACANONICAL
   perhaps you meant:
       CANONICAL
+      A CANONICAL
 
 acanthaceae
      word not found: ACANTHACEAE
@@ -2161,6 +2238,7 @@ acardiac
      word not found: ACARDIAC
   perhaps you meant:
       CARDIAC
+      A CARDIAC
 
 acardite
      word not found: ACARDITE
@@ -2199,6 +2277,7 @@ acarol
      word not found: ACAROL
   perhaps you meant:
       CAROL
+      A CAROL
 
 acarophilies
      word not found: ACAROPHILIES
@@ -2216,6 +2295,7 @@ acast
      word not found: ACAST
   perhaps you meant:
       CAST
+      A CAST
 
 acatalepsia
      word not found: ACATALEPSIA
@@ -2253,6 +2333,7 @@ acategorical
      word not found: ACATEGORICAL
   perhaps you meant:
       CATEGORICAL
+      A CATEGORICAL
 
 acatery
      word not found: ACATERY
@@ -2273,6 +2354,7 @@ acatholic
      word not found: ACATHOLIC
   perhaps you meant:
       CATHOLIC
+      A CATHOLIC
 
 acaudelescent
      word not found: ACAUDELESCENT
@@ -2368,6 +2450,7 @@ accentus
      word not found: ACCENTUS
   perhaps you meant:
       ACCENTS
+      ACCENT US
 
 acceptancies
      word not found: ACCEPTANCIES
@@ -2388,6 +2471,8 @@ acceptilating
 
 acception
      word not found: ACCEPTION
+  perhaps you meant:
+      ACCEPT ION
 
 acceptivities
      word not found: ACCEPTIVITIES
@@ -2408,11 +2493,13 @@ accessability
      word not found: ACCESSABILITY
   perhaps you meant:
       ACCESSIBILITY
+      ACCESS ABILITY
 
 accessable
      word not found: ACCESSABLE
   perhaps you meant:
       ACCESSIBLE
+      ACCESS ABLE
 
 accessarily
      word not found: ACCESSARILY
@@ -2428,9 +2515,13 @@ accessaryship
 
 accessioner
      word not found: ACCESSIONER
+  perhaps you meant:
+      ACCESSION ER
 
 accessit
      word not found: ACCESSIT
+  perhaps you meant:
+      ACCESS IT
 
 accessive
      word not found: ACCESSIVE
@@ -2440,11 +2531,14 @@ accessively
 
 accessless
      word not found: ACCESSLESS
+  perhaps you meant:
+      ACCESS LESS
 
 accessor
      word not found: ACCESSOR
   perhaps you meant:
       ACCESSORY
+      ACCESS OR
 
 accessor's
      word not found: ACCESSOR'S
@@ -2476,6 +2570,8 @@ accidency
 
 accidentalisms
      word not found: ACCIDENTALISMS
+  perhaps you meant:
+      ACCIDENTAL ISMS
 
 accidentalist
      word not found: ACCIDENTALIST
@@ -2531,6 +2627,8 @@ accismus
 
 acclaimable
      word not found: ACCLAIMABLE
+  perhaps you meant:
+      ACCLAIM ABLE
 
 acclamator
      word not found: ACCLAMATOR
@@ -2625,6 +2723,9 @@ accompli
 
 accompliceship
      word not found: ACCOMPLICESHIP
+  perhaps you meant:
+      ACCOMPLICE SHIP
+      ACCOMPLICES HIP
 
 accomplicity
      word not found: ACCOMPLICITY
@@ -2670,6 +2771,7 @@ accounter
      word not found: ACCOUNTER
   perhaps you meant:
       ACCOUNTED
+      ACCOUNT ER
 
 accounters
      word not found: ACCOUNTERS
@@ -2700,6 +2802,8 @@ accrease
 
 accreditate
      word not found: ACCREDITATE
+  perhaps you meant:
+      ACCREDIT ATE
 
 accreditee
      word not found: ACCREDITEE
@@ -2984,6 +3088,8 @@ acephaly
 
 acepots
      word not found: ACEPOTS
+  perhaps you meant:
+      ACE POTS
 
 acequiador
      word not found: ACEQUIADOR
@@ -3055,6 +3161,9 @@ acescencies
 
 aceship
      word not found: ACESHIP
+  perhaps you meant:
+      ACE SHIP
+      ACES HIP
 
 acesodyne
      word not found: ACESODYNE
@@ -3070,6 +3179,8 @@ acestoma's
 
 acetable
      word not found: ACETABLE
+  perhaps you meant:
+      ACE TABLE
 
 acetabularia
      word not found: ACETABULARIA
@@ -3133,12 +3244,16 @@ acetanisidine's
 
 acetannin
      word not found: ACETANNIN
+  perhaps you meant:
+      ACE TANNIN
 
 acetarious
      word not found: ACETARIOUS
 
 acetars
      word not found: ACETARS
+  perhaps you meant:
+      ACE TARS
 
 acetarsone
      word not found: ACETARSONE
@@ -3183,6 +3298,7 @@ acetine
      word not found: ACETINE
   perhaps you meant:
       ACETONE
+      ACE TINE
 
 acetite
      word not found: ACETITE
@@ -3374,6 +3490,8 @@ acetphenetidin
 
 acetract
      word not found: ACETRACT
+  perhaps you meant:
+      ACE TRACT
 
 acettoluide
      word not found: ACETTOLUIDE
@@ -3482,4 +3600,4 @@ acetylize
 ]0;ics46@ics46-2018spring: ~/projects/proj3ics46@ics46-2018spring : ~/projects/proj3 $ exit
 exit
 
-Script done on Wed 07 Nov 2018 08:55:44 PM PST
+Script done on Sat 10 Nov 2018 11:14:10 PM PST

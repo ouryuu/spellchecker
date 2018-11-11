@@ -154,7 +154,7 @@ private:
 
 
 template <typename ElementType>
-AVLSet<ElementType>::AVLSet(bool shouldBalance) : head(nullptr), treesize(0), balance(shouldBalance)
+AVLSet<ElementType>::AVLSet(bool shouldBalance) : head{nullptr}, treesize{0}, balance{shouldBalance}
 {
 }
 
@@ -456,4 +456,3 @@ void AVLSet<ElementType>::postvisitnode(VisitFunction& visit, Node<ElementType>*
 }
 
 #endif // AVLSET_HPP
-

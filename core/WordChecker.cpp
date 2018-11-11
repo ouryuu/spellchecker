@@ -74,12 +74,15 @@ std::vector<std::string> WordChecker::findSuggestions(const std::string& word) c
 	//char spacing
 	for(int i = 0; i < s_len; i++)
 	{
-		std::string space_s = word;
-		space_s.insert(i, 1, ' ');
-		if(words.contains(space_s) && std::find(sugg_vec.begin(), sugg_vec.end(), space_s) == sugg_vec.end())
+		std::string sub_str1 = word.substr(0, i);
+		std::string sub_str2 = word.substr(i, s_len - 1);
+		if(words.contains(sub_str1) && words.contains(sub_str2))
+		{
+			std::string space_s = word;
+			space_s.insert(i, 1, ' ');
 			sugg_vec.push_back(space_s);
+		}
 	}
-
 	return sugg_vec;
 }
 
