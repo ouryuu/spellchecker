@@ -227,7 +227,7 @@ void HashSet<ElementType>::add(const ElementType& element)
 template <typename ElementType>
 bool HashSet<ElementType>::contains(const ElementType& element) const
 {
-	unsigned int hash_index = hashFunction(element);
+	unsigned int hash_index = hashFunction(element) % capacity;
 	return isElementAtIndex(element, hash_index);
 }
 

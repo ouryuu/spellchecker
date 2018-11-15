@@ -23,6 +23,7 @@
 #include <functional>
 #include "Set.hpp"
 #include <iostream>
+#include <iomanip>
 template <typename ElementType>
 struct Node
 {
@@ -103,7 +104,24 @@ public:
 	// in the set, in the order determined by a postorder traversal of the AVL
 	// tree.
 	void postorder(VisitFunction visit) const;
+/*
+	void coutNode(Node<ElementType>* head, int indent = 0)
+	{
+		if(head != nullptr)
+		{
+			coutNode(head->right, indent + 4);
+			std::cout << std::setw(indent) << ' ' << head->data << '\n';
+			coutNode(head->left, indent + 4);
+		}
 
+	}
+	void print()
+	{
+		std::cout << "==============\n";
+		coutNode(head);
+		std::cout << "==============\n";
+	}
+*/
 
 
 private:
@@ -131,24 +149,9 @@ private:
 	void postvisitnode(VisitFunction& visit, Node<ElementType>* head) const;
 
 
-/*
-	void coutNode(Node<ElementType>* head, int indent = 0)
-	{
-		if(head != nullptr)
-		{
-			coutNode(head->right, indent + 4);
-			std::cout << std::setw(indent) << ' ' << head->data << '\n';
-			coutNode(head->left, indent + 4);
-		}
 
-	}
-	void print(Node<ElementType>* head, int indent = 0)
-	{
-		std::cout << "==============\n";
-		coutNode(head, indent);
-		std::cout << "==============\n";
-	}
-*/
+
+
 
 };
 
@@ -169,16 +172,18 @@ AVLSet<ElementType>::~AVLSet() noexcept
 template <typename ElementType>
 AVLSet<ElementType>::AVLSet(const AVLSet& s)
 {
-	deleteTree(head);
 	head = copyTree(s.head);
+	treesize = s.treesize;
+	balance = s.balance;
 }
 
 
 template <typename ElementType>
 AVLSet<ElementType>::AVLSet(AVLSet&& s) noexcept
 {
-	deleteTree(head);
 	head = copyTree(s.head);
+	treesize = s.treesize;
+	balance = s.balance;
 }
 
 
@@ -187,6 +192,8 @@ AVLSet<ElementType>& AVLSet<ElementType>::operator=(const AVLSet& s)
 {
 	deleteTree(head);
 	head = copyTree(s.head);
+	treesize = s.treesize;
+	balance = s.balance;
 	return *this;
 }
 
@@ -196,6 +203,8 @@ AVLSet<ElementType>& AVLSet<ElementType>::operator=(AVLSet&& s) noexcept
 {
 	deleteTree(head);
 	head = copyTree(s.head);
+	treesize = s.treesize;
+	balance = s.balance;
 	return *this;
 }
 
@@ -210,8 +219,14 @@ bool AVLSet<ElementType>::isImplemented() const noexcept
 template <typename ElementType>
 void AVLSet<ElementType>::add(const ElementType& element)
 {
-	if(balance) head = insertNode(element, head);
-	else head = insertNodeBST(element, head);
+	if(balance)
+	{
+		head = insertNode(element, head);
+	}
+	else
+	{ 
+		head = insertNodeBST(element, head);
+	}
 	treesize++;
 }
 
@@ -387,12 +402,13 @@ Node<ElementType>* AVLSet<ElementType>::insertNodeBST(const ElementType& element
 	} 
 	else if (element > head->data)
 	{
-		head->right = insertNode(element, head->right);
+		head->right = insertNodeBST(element, head->right);
 	}
 	else if (element < head->data)
 	{
-		head->left = insertNode(element, head->left);
+		head->left = insertNodeBST(element, head->left);
 	}
+	head->height = 1 + branchHeight(head);
 	return head;
 }
 

@@ -13,6 +13,8 @@ Set.hpp
 ../core/Set.hpp
 iostream
 -
+iomanip
+-
 
 ../core/HashSet.hpp
 iostream

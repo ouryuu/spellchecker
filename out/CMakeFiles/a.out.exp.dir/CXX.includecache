@@ -6,5 +6,23 @@
 
 #IncludeRegexTransform: 
 
+../core/AVLSet.hpp
+functional
+-
+Set.hpp
+../core/Set.hpp
+iostream
+-
+iomanip
+-
+
+../provided/Set.hpp
+
 /home/ics46/projects/proj3/exp/expmain.cpp
+iostream
+-
+AVLSet.hpp
+/home/ics46/projects/proj3/exp/AVLSet.hpp
+vector
+-
 
